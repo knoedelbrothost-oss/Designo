@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designo</title>
+    <link rel="icon" href="Logo.png" type="image/jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Condiment&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            margin-top: 0;
+            padding: 0;
+            font-family: 'Google Sans Code';
+            background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+            color: #222;
+        }
+
+        .displayblock {
+            display: block;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .displayblock-half {
+            padding-left: 40px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: black !important;
+        }
+
+        #headline {
+            font-size: 80px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 50px;
+            color: black;
+            text-shadow: none;
+            font-family: 'Condiment', cursive;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: black;
+            text-shadow: none;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 90px;
+            padding: 15px 40px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.4s;
+            font-family: 'Google Sans Code';
+            margin-top: 20px;
+        }
+
+        #header {
+            display: flex;
+            align-items: center;
+            border-radius:90px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="header">
+        <img src="Logo.jpg" alt="Designo Logo" style="height: 60px; margin: 10px;">
+        <h2>Designo</h2>
+    </div>
+    <div class="displayblock"
+        style="background-image: url(media/background-div1.jpg); background-size: cover; background-position: center;">
+        <h1 id="headline">
+            Wo die Kreativität zu Hause ist
+        </h1>
+    </div>
+    <div style="display: flex;">
+        <div class="displayblock-half" display="block">
+            <h1>
+                Online Buchen
+            </h1>
+            <h2>
+                Schneller, stressiger Alltag! Manchmal scheint es nahezu unmöglich, alles in einen Tag zu bekommen. Wir
+                kennen das! Daher können Sie bei uns jederzeit eine Buchung vornehmen, direkt über unsere Website.
+                Unkomplizierte Reservierungen, 24/7, 365 Tage im Jahr.
+            </h2>
+            <a href="index.html#buchen"><button>Buchen</button></a>
+        </div>
+        <div class="displayblock-half"
+            style="background-image: url(media/background-div2.jpg); background-size: cover; background-position: center;">
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div class="displayblock-half"
+            style="background-image: url(media/background-div3.jpg); background-size: cover; background-position: center;">
+        </div>
+        <div class="displayblock-half" display="block">
+            <h1>
+                Unser Team
+            </h1>
+            <h2>
+                Bei uns arbeiten die besten und intelligentesten Köpfe. So können wir die hervorragenden Ergebnisse
+                liefern, die man von uns kennt. Lernen Sie unsere Mitarbeiter kennen und erfahren Sie, wer sie sind und
+                was sie beschäftigt und warum unsere Mitarbeiter unser größtes Kapital sind.
+            </h2>
+        </div>
+
+    </div>
+    <div class="displayblock" style="height: fit-content; display: block; background-color: black;">
+        <h1 id="headline" style="padding-top: 50px;">
+            Knödelbrot
+        </h1>
+        <img src="media/Knoedelbrot-Logo.png" alt="Das Knödelbrot Logo">
+        <h2 style="color: white;">Knödelbrot, unsere Mutterfirma, hat uns unseren Erfolg möglich gemacht</h2>
+        <a href="https://knödelbrot.de"><button style="color: black; background-color: white;">Knödelbrot</button></a>
+        <div style="height: 50px;"></div>
+    </div>
+    <div style="display: flex;" id="buchen">
+        <div class="displayblock-half">
+            <h1>Webdesign-Anfrageformular</h1>
+            <h2>Bitte füllen Sie dieses Formular aus, um Ihre Webdesign-Anfrage zu senden.</h2>
+        </div>
+        <div class="displayblock-half">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdouKYOINCM_59MJXCq9MEfaTMeh_c5JRh544IYgEjzPRWqmQ/viewform?embedded=true"
+                frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
